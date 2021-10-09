@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Form</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+    <h3>User Contact Form</h3>
+
+    <form action="submission.html" method="post">
+        <!-- <b>User Name</b> -->
+        <input type="text" name="user_name" size="30" placeholder="Enter your name"> <br>
+        <!-- <b>Password</b> -->
+        <input type="password" name="password" size="30" placeholder="Enter your password"> <br>
+        <!-- <b>Address</b> -->
+        <textarea name="address" id="add" cols="30" rows="4" placeholder="Enter your Address"></textarea> <br>
+        <!-- <b>Country</b> -->
+        <select name="s1" id="sel1">
+            <option value="SYC" selected>Select Your Country</option>
+            <option value="america">America</option>
+            <option value="australia">Australia</option>
+            <option value="India" >India</option>
+            <option value="china">China</option>
+            <option value="japan">Japan</option>
+        </select> <br>
+        <b>Gender</b>
+        <input type="radio" name="Radio_Button">Male
+        <input type="radio" name="Radio_Button">Female <br>
+        <b>Hobbies</b>
+        <input type="checkbox" name="Checkbox">Drawing
+        <input type="checkbox" name="Checkbox">Dancing
+        <input type="checkbox" name="Checkbox">Swimming
+        <input type="checkbox" name="Checkbox">Travelling <br>
+        <input type="submit" value="submit" id="btn">
+        <input type="reset" value="reset" id="btn">
+        <input type="button" value="cancel" id="btn">
+    </form>
+    
+</body>
+</html>
